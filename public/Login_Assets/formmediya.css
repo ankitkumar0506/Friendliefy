@@ -1,0 +1,249 @@
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 730.98px) {
+    .eyes {
+        left: 13vw;
+    }
+
+    .p {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .eyes {
+        left: 45px;
+    }
+
+    .p {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 548.98px) 
+{
+    .eyes {
+        left: 50px;
+    }
+
+    .p {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+        width: 100%;
+    }
+    .logo1 {
+        border-radius: 30px;
+        padding: 5px 8px;
+        margin: 10px;
+        width: 150%;
+    }
+}
+ @media (max-width: 475.98px) 
+{
+    .eyes {
+        left: 70px;
+    }
+
+    .p {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+        width: 200%;
+    }
+    form a {
+        font-size: 15px;
+        width: 200%;
+    }
+    input {
+        padding: 10px 10px;
+        margin: 8px 10px;
+        width: 150%;
+    }
+    .logo1 {
+        border-radius: 30px;
+        padding: 5px 8px;
+        margin: 10px;
+        width: 150%;
+    }
+    button {
+        width: 100%;
+        padding: 10px 2px;
+    }
+
+ } 
+ 
+@media (max-width: 414.98px) 
+{
+    .eyes {
+        left: 50px;
+    }
+
+    .logo1 {
+        border-radius: 30px;
+        padding: 3px 5px;
+        margin: 8px 2px;
+        width: 150%;
+    }
+
+    .logo1 img {
+        width: 16px;
+        height: 17px;
+    }
+
+    .p {
+        font-size: 12px;
+    }
+
+    h1 {
+        width: 200%;
+    }
+
+    form a {
+        font-size: 13px;
+        width: 200%;
+    }
+
+    input {
+        padding: 10px 10px;
+        margin: 8px 10px;
+        width: 150%;
+    }
+
+    .overlay p {
+        font-size: 12px;
+        width: 200%;
+    }
+
+     button {
+        width: 100%;
+        padding: 10px 2px;
+    }  
+}
+@media (max-width: 393.98px)
+{
+    .logo1 {
+        border-radius: 10px;
+        padding: 1px 1px;
+        margin: 8px 2px;
+        width: 150%;
+        display: inline-flex;
+    }
+    .p
+    {
+        font-size: 9px;
+    }
+}
+@media (max-width: 375.98px) {
+    .eyes {
+        left: 53px;
+    }
+    .logo1 {
+        border-radius: 10px;
+        padding: 3px 5px;
+        margin: 8px 2px;
+        width: 200%;
+        display: inline-flex;
+
+    }
+    .logo1 img {
+        width: 16px;
+        height: 17px;
+    }
+
+    .p {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 17px;
+        width: 200%;
+    }
+
+    form a {
+        font-size: 13px;
+        width: 200%;
+    }
+
+    input {
+        padding: 10px 10px;
+        margin: 8px 10px;
+        width: 200%;
+    }
+
+    .overlay p {
+        font-size: 19px;
+        width: 150%;
+    }
+
+     button {
+        width: 100%;
+        padding: 10px 2px;
+    }
+}
+@media (max-width: 280.98px) {
+    .eyes {
+        left: 34px;
+        bottom: 13px;
+    }
+    .logo1 {
+        border-radius: 10px;
+        padding: 1px 3px;
+        margin: 8px 2px;
+        width: 300%;
+        display: inline-flex;
+
+    }
+    .logo1 img {
+        width: 16px;
+        height: 17px;
+    }
+
+    .p {
+        font-size: 8px;
+    }
+
+    h1 {
+        font-size: 16px;
+        width: 250%;
+    }
+
+    form a {
+        font-size: 12px;
+        width: 350%;
+    }
+
+    input {
+        padding: 5px 10px;
+        width: 300%;
+    }
+
+    .overlay p {
+        font-size: 15px;
+        width: 250%;
+    }
+
+     button {
+        width: 200%;
+        /* padding: 13px 10px; */
+    }
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
