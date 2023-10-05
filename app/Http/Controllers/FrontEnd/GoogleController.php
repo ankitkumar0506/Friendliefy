@@ -38,7 +38,16 @@ class GoogleController extends Controller
                     'username'=> $user->name.time(),
                     'mobile'=> $user->name.time(),
 
+
                 ]);
+                $details = [
+                    'title' => 'Mail from shopping app .com',
+                    'body' => 'This is for testing email using smtp'
+                ];
+
+                \Mail::to($user->email)->send(new \App\Mail\MyTestMail($details));
+                    // dd("after");
+
 
                 Auth::login($newUser);
 

@@ -26,8 +26,9 @@
     h1 {
         font-size: 14px;
     }
+
 }
-@media (max-width: 548.98px) 
+@media (max-width: 548.98px)
 {
     .eyes {
         left: 50px;
@@ -48,7 +49,7 @@
         width: 150%;
     }
 }
- @media (max-width: 475.98px) 
+ @media (max-width: 475.98px)
 {
     .eyes {
         left: 70px;
@@ -73,18 +74,18 @@
     }
     .logo1 {
         border-radius: 30px;
-        padding: 5px 8px;
+        padding: 5px 5px;
         margin: 10px;
-        width: 150%;
+        width: 180%;
     }
     button {
         width: 100%;
         padding: 10px 2px;
     }
 
- } 
- 
-@media (max-width: 414.98px) 
+ }
+
+@media (max-width: 414.98px)
 {
     .eyes {
         left: 50px;
@@ -94,7 +95,7 @@
         border-radius: 30px;
         padding: 3px 5px;
         margin: 8px 2px;
-        width: 150%;
+        width: 200%;
     }
 
     .logo1 img {
@@ -129,7 +130,7 @@
      button {
         width: 100%;
         padding: 10px 2px;
-    }  
+    }
 }
 @media (max-width: 393.98px)
 {
@@ -137,12 +138,12 @@
         border-radius: 10px;
         padding: 1px 1px;
         margin: 8px 2px;
-        width: 150%;
+        width: 180%;
         display: inline-flex;
     }
     .p
     {
-        font-size: 9px;
+        font-size: 12px;
     }
 }
 @media (max-width: 375.98px) {
@@ -247,3 +248,4 @@
 
 /* // X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
+

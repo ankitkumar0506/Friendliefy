@@ -33,7 +33,8 @@ return [
      'google' => [
         'client_id' => '322138626500-fctpvuuur2m8kp114mm5vrjfar4grvec.apps.googleusercontent.com',
         'client_secret' => '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',
-        'redirect' => 'https://friendliefy.com/authorized/google/callback',
+        // 'redirect' => 'https://friendliefy.com/authorized/google/callback',
+        'redirect' => 'http://localhost:8000/authorized/google/callback',
       ],
 
 ];
